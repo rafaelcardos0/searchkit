@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { EuiTitle, EuiDualRange } from '@elastic/eui';
-import { useSearchkit } from '@searchkit/client';
+import { useSearchkit } from 'searchkit/client';
 import { useDebouncedCallback } from 'use-debounce';
 export const getLevels = (entries) => entries.reduce((levels, entry, index, entries) => {
     const lastLevel = levels[levels.length - 1];

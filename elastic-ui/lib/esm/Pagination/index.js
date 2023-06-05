@@ -1,4 +1,4 @@
-import { useSearchkit } from '@searchkit/client';
+import { useSearchkit } from 'searchkit/client';
 import { EuiPagination } from '@elastic/eui';
 import React from 'react';
 export const Pagination = ({ data }) => {

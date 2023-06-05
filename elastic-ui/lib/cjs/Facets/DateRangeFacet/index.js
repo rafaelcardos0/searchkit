@@ -22,7 +22,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.DateRangeFacet = void 0;
 const react_1 = __importStar(require("react"));
 const eui_1 = require("@elastic/eui");
-const client_1 = require("@searchkit/client");
+const client_1 = require("searchkit/client");
 exports.DateRangeFacet = ({ facet, loading }) => {
     const api = client_1.useSearchkit();
     const [startDate, setStartDate] = react_1.useState(null);

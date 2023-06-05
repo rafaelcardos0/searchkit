@@ -31,7 +31,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.ComboBoxFacet = void 0;
 const react_1 = __importStar(require("react"));
 const eui_1 = require("@elastic/eui");
-const client_1 = require("@searchkit/client");
+const client_1 = require("searchkit/client");
 const client_2 = require("@apollo/client");
 const facetRefinementSearchQuery = client_2.gql `
   query refinementFacet(

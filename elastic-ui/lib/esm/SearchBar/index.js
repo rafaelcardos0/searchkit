@@ -1,4 +1,4 @@
-import { useSearchkit, useSearchkitQueryValue } from '@searchkit/client';
+import { useSearchkit, useSearchkitQueryValue } from 'searchkit/client';
 import { EuiFieldSearch } from '@elastic/eui';
 import React from 'react';
 export const SearchBar = ({ loading }) => {

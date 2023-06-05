@@ -1,4 +1,4 @@
-import { FilterLink, useSearchkit } from '@searchkit/client';
+import { FilterLink, useSearchkit } from 'searchkit/client';
 import { EuiButton, EuiFlexGroup, EuiFlexItem } from '@elastic/eui';
 import React, { useRef } from 'react';
 const NumericRangeFilter = ({ filter, loading }) => {

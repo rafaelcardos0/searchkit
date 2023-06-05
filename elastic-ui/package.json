@@ -1,5 +1,5 @@
 {
-  "name": "@searchkit/elastic-ui",
+  "name": "searchkit/elastic-ui",
   "version": "3.0.0",
   "main": "./lib/cjs/index.js",
   "module": "./lib/esm/index.js",
@@ -41,7 +41,7 @@
     "@apollo/client": "^3.5.8",
     "@elastic/datemath": "^5.0.3",
     "@elastic/eui": "^34.0.0",
-    "@searchkit/client": "^3.0.0",
+    "searchkit/client": "^3.0.0",
     "@types/react": "^17.0.13",
     "moment": "^2.29.1",
     "react": "^17.0.1",
@@ -50,7 +50,7 @@
   "peerDependencies": {
     "@apollo/client": "^3.0.0",
     "@elastic/eui": "^34.0.0",
-    "@searchkit/client": "^3",
+    "searchkit/client": "^3",
     "react": "^17.0.0||^16.0.0"
   },
   "gitHead": "3805f655363e8a72a534807026aee67d01536d3a"

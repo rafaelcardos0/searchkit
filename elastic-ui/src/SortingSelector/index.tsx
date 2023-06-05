@@ -1,4 +1,4 @@
-import { useSearchkit } from '@searchkit/client'
+import { useSearchkit } from 'searchkit/client'
 import { EuiSuperSelect } from '@elastic/eui'
 import React, { useState, useEffect } from 'react'
 

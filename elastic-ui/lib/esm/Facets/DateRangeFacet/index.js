@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { EuiTitle, EuiDatePickerRange, EuiDatePicker } from '@elastic/eui';
-import { useSearchkit } from '@searchkit/client';
+import { useSearchkit } from 'searchkit/client';
 export const DateRangeFacet = ({ facet, loading }) => {
     const api = useSearchkit();
     const [startDate, setStartDate] = useState(null);

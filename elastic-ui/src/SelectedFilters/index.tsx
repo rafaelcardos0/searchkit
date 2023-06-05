@@ -1,4 +1,4 @@
-import { FilterLink, useSearchkit, FilterLinkClickRef } from '@searchkit/client'
+import { FilterLink, useSearchkit, FilterLinkClickRef } from 'searchkit/client'
 import { EuiButton, EuiFlexGroup, EuiFlexItem } from '@elastic/eui'
 import React, { useRef } from 'react'
 

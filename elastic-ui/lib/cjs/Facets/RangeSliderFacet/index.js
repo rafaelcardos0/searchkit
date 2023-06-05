@@ -22,7 +22,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.RangeSliderFacet = exports.getLevels = void 0;
 const react_1 = __importStar(require("react"));
 const eui_1 = require("@elastic/eui");
-const client_1 = require("@searchkit/client");
+const client_1 = require("searchkit/client");
 const use_debounce_1 = require("use-debounce");
 exports.getLevels = (entries) => entries.reduce((levels, entry, index, entries) => {
     const lastLevel = levels[levels.length - 1];

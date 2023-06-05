@@ -1,6 +1,6 @@
 import React, { ReactText, useEffect, useState } from 'react'
 import { EuiTitle, EuiDualRange, colorPalette } from '@elastic/eui'
-import { useSearchkit } from '@searchkit/client'
+import { useSearchkit } from 'searchkit/client'
 import { useDebouncedCallback } from 'use-debounce'
 
 export const getLevels = (entries: Array<{ label: string; count: number }>): any =>

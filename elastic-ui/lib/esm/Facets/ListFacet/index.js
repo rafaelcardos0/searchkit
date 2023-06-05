@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import { EuiFacetGroup, EuiTitle, EuiFacetButton } from '@elastic/eui';
-import { useSearchkit, FilterLink } from '@searchkit/client';
+import { useSearchkit, FilterLink } from 'searchkit/client';
 export const ListFacet = ({ facet, loading }) => {
     const api = useSearchkit();
     const entries = facet.entries.map((entry) => {

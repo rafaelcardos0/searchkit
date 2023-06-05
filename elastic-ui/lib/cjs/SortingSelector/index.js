@@ -20,7 +20,7 @@ var __importStar = (this && this.__importStar) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.SortingSelector = void 0;
-const client_1 = require("@searchkit/client");
+const client_1 = require("searchkit/client");
 const eui_1 = require("@elastic/eui");
 const react_1 = __importStar(require("react"));
 exports.SortingSelector = ({ data, loading }) => {

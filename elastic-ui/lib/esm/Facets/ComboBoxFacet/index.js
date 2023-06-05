@@ -9,7 +9,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 import React, { useState, useEffect } from 'react';
 import { EuiComboBox } from '@elastic/eui';
-import { useSearchkit } from '@searchkit/client';
+import { useSearchkit } from 'searchkit/client';
 import { gql, useApolloClient } from '@apollo/client';
 const facetRefinementSearchQuery = gql `
   query refinementFacet(
